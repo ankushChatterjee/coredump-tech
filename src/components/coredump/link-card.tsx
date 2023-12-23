@@ -15,7 +15,7 @@ const LinkCard: React.FC<LinkCardProps> = ({ title, subTitle, linkto, tags }) =>
             <div className="text-sm text-muted-foreground">
                 {subTitle} <br/>
             </div>
-            {tags.map(tag => <Badge variant="secondary" className="mx-0.5">{tag}</Badge>)}
+            {tags.map(tag => <Badge key={tag} variant="secondary" className="mx-0.5">{tag}</Badge>)}
         </div>
         <Separator className="my-4" />
     </div>
