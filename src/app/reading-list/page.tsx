@@ -50,6 +50,11 @@ export default function ReadingList() {
               tags={["databases"]}
               linkto="https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf"
               subTitle="Foundational paper on AWS DynamoDB" />
+            <LinkCard 
+              title="Gorilla: A Fast, Scalable, In-Memory Time Series Database "
+              tags={["databases", "time series"]}
+              linkto="https://drive.google.com/file/d/13jFQkD2OmydymjPFLnsvsQUwMwhmynIh/view"
+              subTitle="A great paper which explains the core ideas behind time-series databases" />
           </TabsContent>
           <TabsContent value="blogs">
            <LinkCard
