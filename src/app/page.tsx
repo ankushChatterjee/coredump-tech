@@ -4,8 +4,8 @@ import Link from 'next/link'
 
 export default function Page() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="max-w-5xl w-full items-center justify-between font-mono">
+    <main className="lg:flex min-h-screen lg:flex-col lg:items-center lg:justify-between lg:p-24 p-6">
+      <div className="lg:max-w-5xl w-full lg:items-center lg:justify-between font-mono">
         <h1 className="text-4xl font-bold">
           coredump.tech
         </h1>
