@@ -97,6 +97,11 @@ export default function ReadingList() {
               subTitle="How wrong indexing crashed Swiggy instamart"
               tags={["database", "indexing", "swiggy"]}
               linkto="https://bytes.swiggy.com/behindthebug-indexing-gone-wrong-6b4d682fd805" />
+            <LinkCard 
+              title="αcτµαlly pδrταblε εxεcµταblε"
+              subTitle="Cross platform C/C++ binaries"
+              tags={["C++", "native"]}
+              linkto="https://justine.lol/ape.html" />
           </TabsContent>
         </Tabs>
       </div>
