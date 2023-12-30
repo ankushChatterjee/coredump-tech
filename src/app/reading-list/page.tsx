@@ -55,6 +55,11 @@ export default function ReadingList() {
               tags={["databases", "time series"]}
               linkto="https://drive.google.com/file/d/13jFQkD2OmydymjPFLnsvsQUwMwhmynIh/view"
               subTitle="A great paper which explains the core ideas behind time-series databases" />
+            <LinkCard 
+              title="Sharding the Shards: Managing Datastore Locality at Scale with Akkio"
+              tags={["infrastructure"]}
+              linkto="https://www.usenix.org/system/files/osdi18-annamalai.pdf"
+              subTitle="Meta's data placement service" />
           </TabsContent>
           <TabsContent value="blogs">
            <LinkCard
