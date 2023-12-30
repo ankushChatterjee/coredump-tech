@@ -107,6 +107,21 @@ export default function ReadingList() {
               subTitle="Cross platform C/C++ binaries"
               tags={["C++", "native"]}
               linkto="https://justine.lol/ape.html" />
+            <LinkCard 
+              title="How we built a general purpose key value store for Facebook with ZippyDB"
+              subTitle="Meta's distributed key/value store"
+              tags={["database", "meta"]}
+              linkto="https://engineering.fb.com/2021/08/06/core-infra/zippydb/" />
+            <LinkCard 
+              title="Asynchronous computing @Facebook: Driving efficiency and developer productivity at Facebook scale"
+              subTitle="Meta's asynchronous compute platform"
+              tags={["infrastructure", "meta"]}
+              linkto="https://engineering.fb.com/2020/08/17/production-engineering/async/" />
+            <LinkCard 
+              title="Managing data store locality at scale with Akkio"
+              subTitle="Meta's data placement service: Akkio"
+              tags={["infrastructure", "data" , "meta"]}
+              linkto="https://engineering.fb.com/2018/10/08/core-infra/akkio/" />
           </TabsContent>
         </Tabs>
       </div>
