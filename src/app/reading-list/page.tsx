@@ -86,7 +86,7 @@ export default function ReadingList() {
               title="Working with PostgreSQL (Zerodha)"
               subTitle="How India's largest stock broker *used to* use postgres"
               tags={["database", "postgres", "zerodha"]}
-              linkto="https://dropbox.tech/infrastructure/intelligent-dns-based-load-balancing-at-dropbox" />
+              linkto="https://zerodha.tech/blog/working-with-postgresql/" />
             <LinkCard
               title="The technology behind GitHub’s new code search"
               subTitle="How does github's code search work"
