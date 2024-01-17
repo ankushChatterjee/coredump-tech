@@ -122,6 +122,11 @@ export default function ReadingList() {
               subTitle="Meta's data placement service: Akkio"
               tags={["infrastructure", "data" , "meta"]}
               linkto="https://engineering.fb.com/2018/10/08/core-infra/akkio/" />
+            <LinkCard 
+              title="Fixing duplicate stories in Medium’s For You feed"
+              subTitle="How medium fixed duplicate stories"
+              tags={["bug", "caching" , "medium"]}
+              linkto="https://medium.engineering/fixing-duplicate-stories-in-mediums-for-you-feed-48e6d4e2b80d" />
           </TabsContent>
         </Tabs>
       </div>
