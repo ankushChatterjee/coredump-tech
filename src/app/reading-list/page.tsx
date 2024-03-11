@@ -123,6 +123,11 @@ export default function ReadingList() {
               tags={["infrastructure", "data" , "meta"]}
               linkto="https://engineering.fb.com/2018/10/08/core-infra/akkio/" />
             <LinkCard 
+              title="How we built Pingora, the proxy that connects Cloudflare to the Internet"
+              subTitle="Cloudflare's nginx replacemetn"
+              tags={["networking", "cloudflare" , "rust"]}
+              linkto="https://blog.cloudflare.com/how-we-built-pingora-the-proxy-that-connects-cloudflare-to-the-internet" />
+            <LinkCard 
               title="Fixing duplicate stories in Medium’s For You feed"
               subTitle="How medium fixed duplicate stories"
               tags={["bug", "caching" , "medium"]}
