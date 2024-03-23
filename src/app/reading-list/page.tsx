@@ -60,6 +60,11 @@ export default function ReadingList() {
               tags={["infrastructure"]}
               linkto="https://www.usenix.org/system/files/osdi18-annamalai.pdf"
               subTitle="Meta's data placement service" />
+            <LinkCard 
+              title="AutoDev: Automated AI-Driven Development"
+              tags={["AI", "Microsoft"]}
+              linkto="https://arxiv.org/pdf/2403.08299.pdf"
+              subTitle="Autonomous Developer paper from Microsoft. " />
           </TabsContent>
           <TabsContent value="blogs">
            <LinkCard
