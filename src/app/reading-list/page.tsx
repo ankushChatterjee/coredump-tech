@@ -137,6 +137,11 @@ export default function ReadingList() {
               subTitle="How medium fixed duplicate stories"
               tags={["bug", "caching" , "medium"]}
               linkto="https://medium.engineering/fixing-duplicate-stories-in-mediums-for-you-feed-48e6d4e2b80d" />
+            <LinkCard 
+              title="Designing a wide-column database on RocksDB"
+              subTitle="How Pinterest built a wide-column database on RocksDB"
+              tags={["database", "nosql" , "pinterest"]}
+              linkto="https://medium.com/pinterest-engineering/building-pinterests-new-wide-column-database-using-rocksdb-f5277ee4e3d2" />
           </TabsContent>
         </Tabs>
       </div>
