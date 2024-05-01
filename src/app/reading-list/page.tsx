@@ -40,34 +40,39 @@ export default function ReadingList() {
               tags={["big data", "analytics"]}
               linkto="https://trino.io/Presto_SQL_on_Everything.pdf"
               subTitle="SQL Query engine for interactive analytics in big data." />
-            <LinkCard 
+            <LinkCard
               title="Napa: Powering Scalable Data Warehousing with Robust Query Performance at Google"
               tags={["big data", "storage", "analytics"]}
               linkto="https://research.google/pubs/napa-powering-scalable-data-warehousing-with-robust-query-performance-at-google/"
               subTitle="A customizable data warehouse technology for google" />
-            <LinkCard 
+            <LinkCard
               title="Dynamo: Amazon’s Highly Available Key-value Store "
               tags={["databases"]}
               linkto="https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf"
               subTitle="Foundational paper on AWS DynamoDB" />
-            <LinkCard 
+            <LinkCard
               title="Gorilla: A Fast, Scalable, In-Memory Time Series Database "
               tags={["databases", "time series"]}
               linkto="https://drive.google.com/file/d/13jFQkD2OmydymjPFLnsvsQUwMwhmynIh/view"
               subTitle="A great paper which explains the core ideas behind time-series databases" />
-            <LinkCard 
+            <LinkCard
               title="Sharding the Shards: Managing Datastore Locality at Scale with Akkio"
               tags={["infrastructure"]}
               linkto="https://www.usenix.org/system/files/osdi18-annamalai.pdf"
               subTitle="Meta's data placement service" />
-            <LinkCard 
+            <LinkCard
               title="AutoDev: Automated AI-Driven Development"
               tags={["AI", "Microsoft"]}
               linkto="https://arxiv.org/pdf/2403.08299.pdf"
               subTitle="Autonomous Developer paper from Microsoft. " />
+            <LinkCard
+              title="Google File System"
+              tags={["Distributed FS", "Google"]}
+              linkto="https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf"
+              subTitle="The google dile system paper that HDFS is based on." />
           </TabsContent>
           <TabsContent value="blogs">
-           <LinkCard
+            <LinkCard
               title="Fixing Go's Linker"
               subTitle="Uber's journey into Go's linker internals"
               tags={["go", "linker", "uber"]}
@@ -107,40 +112,40 @@ export default function ReadingList() {
               subTitle="How wrong indexing crashed Swiggy instamart"
               tags={["database", "indexing", "swiggy"]}
               linkto="https://bytes.swiggy.com/behindthebug-indexing-gone-wrong-6b4d682fd805" />
-            <LinkCard 
+            <LinkCard
               title="αcτµαlly pδrταblε εxεcµταblε"
               subTitle="Cross platform C/C++ binaries"
               tags={["C++", "native"]}
               linkto="https://justine.lol/ape.html" />
-            <LinkCard 
+            <LinkCard
               title="How we built a general purpose key value store for Facebook with ZippyDB"
               subTitle="Meta's distributed key/value store"
               tags={["database", "meta"]}
               linkto="https://engineering.fb.com/2021/08/06/core-infra/zippydb/" />
-            <LinkCard 
+            <LinkCard
               title="Asynchronous computing @Facebook: Driving efficiency and developer productivity at Facebook scale"
               subTitle="Meta's asynchronous compute platform"
               tags={["infrastructure", "meta"]}
               linkto="https://engineering.fb.com/2020/08/17/production-engineering/async/" />
-            <LinkCard 
+            <LinkCard
               title="Managing data store locality at scale with Akkio"
               subTitle="Meta's data placement service: Akkio"
-              tags={["infrastructure", "data" , "meta"]}
+              tags={["infrastructure", "data", "meta"]}
               linkto="https://engineering.fb.com/2018/10/08/core-infra/akkio/" />
-            <LinkCard 
+            <LinkCard
               title="How we built Pingora, the proxy that connects Cloudflare to the Internet"
               subTitle="Cloudflare's nginx replacemetn"
-              tags={["networking", "cloudflare" , "rust"]}
+              tags={["networking", "cloudflare", "rust"]}
               linkto="https://blog.cloudflare.com/how-we-built-pingora-the-proxy-that-connects-cloudflare-to-the-internet" />
-            <LinkCard 
+            <LinkCard
               title="Fixing duplicate stories in Medium’s For You feed"
               subTitle="How medium fixed duplicate stories"
-              tags={["bug", "caching" , "medium"]}
+              tags={["bug", "caching", "medium"]}
               linkto="https://medium.engineering/fixing-duplicate-stories-in-mediums-for-you-feed-48e6d4e2b80d" />
-            <LinkCard 
+            <LinkCard
               title="Designing a wide-column database on RocksDB"
               subTitle="How Pinterest built a wide-column database on RocksDB"
-              tags={["database", "nosql" , "pinterest"]}
+              tags={["database", "nosql", "pinterest"]}
               linkto="https://medium.com/pinterest-engineering/building-pinterests-new-wide-column-database-using-rocksdb-f5277ee4e3d2" />
           </TabsContent>
         </Tabs>
