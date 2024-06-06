@@ -147,6 +147,11 @@ export default function ReadingList() {
               subTitle="How Pinterest built a wide-column database on RocksDB"
               tags={["database", "nosql", "pinterest"]}
               linkto="https://medium.com/pinterest-engineering/building-pinterests-new-wide-column-database-using-rocksdb-f5277ee4e3d2" />
+            <LinkCard
+              title="Rapid Event Notification System at Netflix"
+              subTitle="Scalable notificaton dispatch system @ Netflix"
+              tags={["netflix", "notifications"]}
+              linkto="https://netflixtechblog.com/rapid-event-notification-system-at-netflix-6deb1d2b57d1" />
           </TabsContent>
         </Tabs>
       </div>
