@@ -70,6 +70,11 @@ export default function ReadingList() {
               tags={["Distributed FS", "Google"]}
               linkto="https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf"
               subTitle="The google dile system paper that HDFS is based on." />
+            <LinkCard
+              title="Umbra Database System"
+              tags={["Database", "OLTP"]}
+              linkto="https://www.cidrdb.org/cidr2020/papers/p29-neumann-cidr20.pdf"
+              subTitle="The google dile system paper that HDFS is based on." />
           </TabsContent>
           <TabsContent value="blogs">
             <LinkCard
